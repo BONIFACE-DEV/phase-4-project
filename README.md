@@ -25,3 +25,14 @@ To run this project, one must have either of the following;
 2. Develop a mobile application.
 3. Responsiveness.
 
+erd diagram 
+        +------------+           +------------+           +------------+
+        |   users    |           |  reviews   |           |  flowers   |
+        +------------+           +------------+           +------------+
+        | id         |           | id         |           | id         |
+        |            |           | user_id    |           |            |
+        |            |-----------| flower_id  |-----------|            |
+        |            |           | rating     |           |            |
+        |            |           | comment    |           |            |
+        +------------+           +------------+           +------------+
+
