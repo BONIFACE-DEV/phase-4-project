@@ -6,14 +6,14 @@ It is a place where you can learn about the history of flowers and their beauty 
 
 
 ### Setup
-    *Fork and clone this repository  
-    *bundle install to install backend dependencies
-    *npm install --prefix client  to install front end dependencies
-    *Run __"npm install react-router-dom@6.4.3"__ to install a compatible version of react-router-dom.
-    *Run rails db:migrate to do the migrations
-    *Run rails db:seed to do the seedings
-    *rails s   to start the rails server
-    *npm start --prefix client to start front end application
+    Fork and clone this repository  
+    bundle install to install backend dependencies
+    npm install --prefix client  to install front end dependencies
+    Run __"npm install react-router-dom@6.4.3"__ to install a compatible version of react-router-dom.
+    Run rails db:migrate to do the migrations
+    Run rails db:seed to do the seedings
+    rails s   to start the rails server
+    npm start --prefix client to start front end application
 
 
 ### Technologies used 
