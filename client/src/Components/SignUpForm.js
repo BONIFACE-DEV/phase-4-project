@@ -4,14 +4,7 @@ import { FlowerContext } from "./FlowerContext";
 
 import { Link } from "react-router-dom";
 
-// function SignUp({ onLogin }) {
-//   const [username, setUsername] = useState("");
-//   const [password, setPassword] = useState("");
-//   const [passwordConfirmation, setPasswordConfirmation] = useState("");
-//   const [imageUrl, setImageUrl] = useState("");
-//   const [bio, setBio] = useState("");
-//   const [errors, setErrors] = useState([]);
-//   const [isLoading, setIsLoading] = useState(false);
+
 
 function SignUp() {
   const {
