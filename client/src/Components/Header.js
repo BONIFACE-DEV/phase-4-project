@@ -20,16 +20,19 @@ export default function Header({ loggedUser }) {
       </Link>
       {loggedUser ? (
         <button className="header-login" onClick={handleLogoutClick}>
-          Log out
+          Logout
         </button>
       ) : (
+        <>
         <Link to={"/login"}>
           <button className="header-login">Login</button>
         </Link>
-      )}
-      <Link to={"/signup"}>
+        <Link to={"/signup"}>
         <button className="header-sign">Sign Up</button>
-      </Link></div>
+      </Link>
+      </>
+      )}
+      </div>
     </header>
   );
 }
