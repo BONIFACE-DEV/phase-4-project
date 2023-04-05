@@ -6,7 +6,10 @@ import { FlowerContext } from "./FlowerContext";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function ReviewCard({ reviewName, reviewComment, reviewUser, reviewId, starRating }) {
+  console.log(starRating); 
   const { handleDeleteReview } = useContext(FlowerContext);
+
+  
   return (
     <div className="review-card">
       <div className="review-info">
