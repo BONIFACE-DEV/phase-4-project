@@ -165,6 +165,8 @@ function FlowerProvider({ children }) {
 
     const userData = await response.json();
     if (response.ok) {
+
+    
       setUser(userData);
       setOnLogin(true);
       setSignupError([]);
