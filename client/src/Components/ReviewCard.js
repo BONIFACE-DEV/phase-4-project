@@ -25,7 +25,6 @@ function ReviewCard({ reviewName, reviewComment, reviewUser, reviewId, starRatin
       <p> {[...Array(5)].map((n, index) => (
           <FontAwesomeIcon icon={faStar} className="fa-star" key={index} />
         ))}</p>
-      
       <p>{reviewComment}</p>
     </div>
   );
