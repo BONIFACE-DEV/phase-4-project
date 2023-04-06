@@ -6,10 +6,7 @@ import { FlowerContext } from "./FlowerContext";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function ReviewCard({ reviewName, reviewComment, reviewUser, reviewId, starRating }) {
-  console.log(starRating); 
   const { handleDeleteReview } = useContext(FlowerContext);
-
-  
   return (
     <div className="review-card">
       <div className="review-info">
@@ -25,9 +22,10 @@ function ReviewCard({ reviewName, reviewComment, reviewUser, reviewId, starRatin
       </div>
 
       <h3> {reviewName}</h3>
-      <p> {[...Array(starRating)].map((n, index) => (
+      <p> {[...Array(5)].map((n, index) => (
           <FontAwesomeIcon icon={faStar} className="fa-star" key={index} />
         ))}</p>
+      
       <p>{reviewComment}</p>
     </div>
   );
